@@ -1,0 +1,82 @@
+body {margin:0; padding:0;font-family:sans-serif;}
+
+/* Date selector */
+.topFilter {display:none !important;}
+
+/* Quick Stats */
+.subTabToolTip {display:none !important;}
+.subTabSelection .subTabTitle {font-size:10px;}
+.subTabSelection .subTabSummary {font-size:8px;}
+.subTabSubTitle .summaryValue,
+.subTabSubTitle .summaryTitle {font-size:8px;}
+
+.subTabSubSubTitle {top:4px !important;}
+.subTabSelection .subTabSummary.subTabSubTitle {margin-top: 24px !important;font-size:10px !important;}
+.subTabSelection .subTabSummary.subTabSubSubTitle {margin-top: 34px !important;font-size:8px !important;}
+.subTabSelection .subTabSummary.subTabSubTitle .summaryTitle {font-size:8px;}
+.subTabSelection .subTabSummary.subTabSubTitle .summaryValue {font-size:8px;}
+.subTabSelection .subTabSummary.subTabSubSubTitle .summaryTitle {font-size:8px;}
+.subTabSelection .subTabSummary.subTabSubSubTitle .summaryValue {font-size:8px;}
+
+/* Legends */
+.legend {overflow: hidden;}
+.legend #chartLegend {overflow: hidden;}
+.legendItem {width: 30%; overflow: hidden;}
+.legendItem .legendTitle {overflow-x: hidden;white-space: nowrap;width:80%;}
+.legendTitle {font-size: 10px;}
+.stackLegendItem:nth-child(even) { width:45%; float:left;}
+.stackLegendItem:nth-child(odd) {width:45%;}
+.stackLegendItem {width: 45%;}
+
+/* Charts/Reports */
+.pivotTable {font-size: 12px;white-space: nowrap;page-break-inside: avoid;}
+.hideLegendOnPrint .legendDisplay {display:none;}
+.showAs50PercentWidthOnPrint {width: 50% !important;}
+.showAs100PercentWidthOnPrint {width:100%;max-height: none !important;}
+.callsTableLayout.listenIcons {width:100%;}
+.reportHtml {width:100%;max-height: none !important;}
+.reportTable .reportCell {font-size:8px;}
+.reportTable .reportHeader {font-size: 8px;}
+.sectionTable .reportHtml {overflow-y: visible !important;overflow:visible !important;}
+.sectionTable .reportHolder {height:auto !important;}
+.bottomBorder .reportHtml {border: none;}
+.allPagination {display:none;}
+.disclaimerHolder {display:none;}
+.callsTableLayout .reportTable .reportRow .reportCell, 
+.callsTableLayout .reportTable .reportRow .reportHeader {font-size: 8px !important;}
+
+/* Image */
+img, img a, .more-link a {border:none;}
+
+/* Tracking details area */
+.comboTrackingDetails,
+.comboTrackingDetails .customHtml,
+.comboPerformance,   
+#trackingDetails .trackingDetailsTitle,
+#trackingDetailsExpandDiv {display:none !important;}
+
+.allPagination,
+.pagination {display:none !important;}
+
+.subTabContentTop,
+.lineChart.subTabContentTop {margin-top:0 !important;}
+.componentLineChart.subTabContentTop {margin-top:0 !important;}
+
+.subtabDropDownList select {top: 40px !important;}
+
+.colBased .reportHeader {font-size: 8px !important;}
+
+.seoKeywordRankReport {width: 100% !important;page-break-inside: avoid;}
+.seoKeywordRankReport tr {width: 100% !important;page-break-inside: avoid;}
+.reportDisplay {page-break-inside: avoid;}
+.reportTitle {page-break-inside: avoid;}
+.reportHolder {page-break-inside: avoid;}
+.filterToolTip {display:none;}
+.expandIcon, collapseIcon {display:none;}
+
+.landingPageProductSelection { right: 0px; width: 375px !important;}
+.landingPageProductSelection select { position: absolute; width: 200px;}
+
+.filterDropdown {width: 350px;}
+
+.seoHighlightsReport{display:none !important;}

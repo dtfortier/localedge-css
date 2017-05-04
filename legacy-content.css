@@ -1,0 +1,40 @@
+/* 
+*	Shared styles originally in http://static.localedge.com/admin/css/common-content.css 
+*	Retained for legacy styles to work with new dashboard - migrated apps should include this file and NOT common-content.css
+*/
+.legacy-container {
+	min-height: 300px;
+	padding-bottom: 15px;
+}
+.legacy-container .container_header h1 {
+	float: left;
+	font-size: 13px;
+	margin: 0;
+	padding-left: 0;
+} 
+.legacy-container .article {
+	margin: 0 20px;
+}
+.legacy-container .box {
+	background-color: #fff;
+	border: 1px solid #bababa;
+	color: #000;
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	text-align: left;
+	width: 890px;
+	background-color: #F8F8F8;
+}
+.labeled .label {
+	left: 0;
+	position: absolute;
+	text-align: right;
+}
+#page-title {
+	font-size: 20px;
+	font-weight: bold;
+}

@@ -1,0 +1,31 @@
+#le-account-list-table{
+	width:95%; 
+	margin-left:2%; 
+	margin-bottom:30px; 
+	margin-top:20px; 
+	border:solid; 
+	border-width:1px; 
+	border-color:#DDDDDD;
+}
+
+#le-account-list-table-heading{
+	font-size:14px; 
+	height:30px; 
+	font-weight:bold;
+}
+
+#le-account-list-table-rows{
+	font-size:14px; 
+	height:40px; 
+	border:solid; 
+	border-width:1px 0; 
+	border-color:#DDDDDD;
+}
+
+#le-account-list-table-rows:hover{
+	background-color:#A4DFE9;
+}
+
+.le-account-list-table-rows-current-account{
+	background-color:#A4DFE9;
+}

@@ -1,0 +1,297 @@
+/* Icons library:
+-- FontAwesome
+-- Custom
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot?sgoj4q');
+	src:url('icomoon.eot?#iefixsgoj4q') format('embedded-opentype'),
+		url('icomoon.woff?sgoj4q') format('woff'),
+		url('icomoon.ttf?sgoj4q') format('truetype'),
+		url('icomoon.svg?sgoj4q#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"], .bing {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-footprints:before {content: "\e602";}
+.icon-cursor:before {content: "\e603";}
+/* == FYI: custom ico-moon icon classes will start with 'icon-' == */
+
+/*:: Global Definition :: */
+
+.tick:before {content: "\f00c";font-family: FontAwesome;font-style: normal;font-weight: normal;} 
+.printExport:before {content: "\f02f";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.pdfExport:before {content: "\f1c1";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.xlsExport:before {content: "\f1c3";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.google:before {content: "\f1a0";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.yahoo:before {content: "\f19e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.bing:before {content: "\e600";font-style: normal;font-weight: normal;}
+.icon-bing:before {content: "\e600";font-style: normal;font-weight: normal;}
+.icon-impressions:before {content: "\e602";font-style: normal;font-weight: normal;}
+.icon-clicks:before {content: "\e603";font-style: normal;font-weight: normal;}
+.listen:before {content: "\f028";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.cursor:before {content: "\e603";font-style: normal;font-weight: normal;}
+.calls:before {content: "\f095";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.topFilter .selected .filterIcon:before {content: "\f0de";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+.line-graph:before {content: "\f201";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.avgPos:before {content: "\f080";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.eye:before {content: "\f06e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.emails:before {content: "\f0e0";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.forms:before {content: "\f022";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.dollar-sign:before {content: "\f155";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.ctr:before {content: "\f0a6";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.avgPos:before {content: "\f080";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.pageViews:before {content: "\f06e";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.youtube-play:before {content: "\f16a";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.shoppingCart:before {content: "\f07a";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.users:before {content: "\f0c0";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.filterToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal; position: absolute; margin-left: 3px;}
+.subTabToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal; position: absolute; margin-left: 3px;}
+.reportToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal; position: absolute; margin-left: 3px;}
+.customReportToolTip:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal; position: absolute; margin-left: 3px;}
+.carrot-left:before {content: "\f0d9";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.carrot-right:before {content: "\f0da";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.carrot-up:before {content: "\f0d8";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.carrot-down:before {content: "\f0d7";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+/* Devices */
+.desktop-icon:before {content: "\f108";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.mobile-icon:before {content: "\f10b";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.tablet-icon:before {content: "\f10a";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.other-icon:before {content: "\f059";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+/* Browsers */
+.firefox-icon:before {content: "\f269";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.internetexplorer-icon:before {content: "\f26B";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.chrome-icon:before {content: "\f268";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.microsoftedge-icon:before {content: "\f282";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+.safari-icon:before {content: "\f267";font-family: FontAwesome;font-style: normal;font-weight: normal;}
+
+
+/* Top Filter */
+.topFilter .filterIcon {display:none;}
+.topFilter .selected .filterIcon {display: inline-block;color: #fff;font-size: 40px;position: absolute;top:26px;width:100%;left:0;}
+
+
+/* Quick Stats */
+.quickStatFilter .filterIcon .google:before{display: inline-block;font-size: 61px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.quickStatFilter .filterIcon .yahoo:before{display: inline-block;font-size: 56px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.quickStatFilter .filterIcon .bing:before{display: inline-block;font-size: 60px;float: right;position: relative;top: 17px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.quickStatFilter .filterIcon .icon-bing:before{display: inline-block;font-size: 60px;float: right;position: relative;top: 17px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .subTabIcon {color: #d0cfcf;position: absolute;bottom: -20px;right: 0;}
+.subTabSelection .calls:before{display: inline-block;font-size: 61px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .icon-impressions:before{display: inline-block;font-size: 61px;margin: 0 0 21px 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
+.subTabSelection .icon-clicks:before{display: inline-block;margin: 0 0 20px 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-size: 50px;}
+.subTabSelection .line-graph:before{display: inline-block;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-size: 50px;margin-bottom: 6px;}
+.subTabSelection .avgPos:before{display: inline-block;font-size: 53px;margin: 0 0 4px 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .eye:before{display: inline-block;font-size: 60px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .emails:before{display: inline-block;font-size: 59px;margin: 0 0 4px 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .forms:before{display: inline-block;font-size: 59px;margin: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .dollar-sign:before{display: inline-block;font-size: 45px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;margin-bottom:10px;}
+.subTabSelection .ctr:before{display: inline-block;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-size: 61px;}
+.subTabSelection .pageViews:before{display: inline-block;font-size: 61px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .youtube-play:before{display: inline-block;font-size: 61px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .shoppingCart:before{display: inline-block;font-size: 60px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.subTabSelection .users:before{display: inline-block;font-size: 60px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
+/*.subtabPageviewsIcon*/
+
+.selected .google:before,
+.selected .yahoo:before,
+.selected .bing:before,
+.selected .icon-bing:before,
+.selected .calls:before,
+.selected .icon-impressions:before,
+.selected .icon-clicks:before,
+
+.selected .line-graph:before,
+.selected .avgPos:before,
+.selected .eye:before,
+.selected .emails:before,
+.selected .forms:before,
+.selected .dollar-sign:before,
+.selected .ctr:before,
+.selected .pageViews:before,
+.selected .youtube-play:before,
+.selected .shoppingCart:before,
+.selected .users:before,
+.selected .filterToolTip {color: #8FA9CD !important;}
+.selected .subTabToolTip {color: #8FA9CD !important;}
+.selected .reportToolTip {color: #8FA9CD !important;}
+.selected .customReportToolTip {color: #8FA9CD !important;}
+
+
+/* Report: Keywords on Page 1 */
+.reportHtml .google:before {display: inline-flex;font-size: 20px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .yahoo:before {display: inline-flex;font-size: 20px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .bing:before {display: inline-flex;font-size: 20px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .icon-bing:before {display: inline-flex;font-size: 20px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .listen:before {display: inline-flex;font-size: 14px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .tick:before {display: inline-flex;font-size: 18px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.reportHtml .forms:before {display: inline-flex;font-size: 20px;color: #364149;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
+/* Modal Titles */
+.modal-title div {display:inline-block; margin-right: 10px; font-size: 24px; line-height: 18px; color: #447DB3;}
+
+/* Tooltip */
+.filterToolTip:before {display: inline-flex;font-size: 15px;color: #ADADAD;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: -1px;
+  right: 10px;}
+.subTabToolTip:before {display: inline-flex;font-size: 15px;color: #ADADAD;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: -1px;
+  right: 0;}
+.reportToolTip:before {display: inline-flex;font-size: 15px;color: #ADADAD;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+  position: absolute;
+}
+.customReportToolTip:before {display: inline-flex;font-size: 15px;color: #ADADAD;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+  position: absolute;
+}
+.performanceTitle a.subTabToolTip:before {position: absolute;
+  top: 2px;
+  right: 0;
+  left: 154px;}
+.domainHeader a.subTabToolTip:before {position: absolute;
+  top: 2px;
+  left: 140px;}
+.seoKeywordSetTitle a.subTabToolTip:before {position: absolute;
+  top: 2px;
+  right: 0;
+  left: 110px;}
+.reportLegendTitle a.customReportToolTip {position: absolute;
+  top: 25px;
+  right: 40px;}
+.reportTitle a.reportToolTip {position: absolute;
+  top: 5px;
+  right: 35px;}
+.reportTitle a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+}
+.filterTitle a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	top: 10px;
+	right: 10px;
+}
+.topFilter a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	right: 5px;
+	top: 10px;
+}
+.quickStatFilter a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	right: 5px;
+}
+.reportDisplay a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	top: 10px;
+	right: 5px;
+}
+.subTabSelector a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	right: 0px;
+	z-index: 2;
+}
+.customHtml a.toolTip {
+	display: inline-flex;
+	font-size: 15px;
+	color: #ADADAD;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	margin: 0 2px 15px 28px;
+	cursor: pointer;
+	text-transform: none;
+	text-decoration: none;
+	top: 25px;
+	right: 25px;
+}
+.popover {
+	max-width: 600px;
+}
+
+/* Package details modal title for performance overview dashboard */
+.pdButton .modal-title:before {content: "\f187";font-family: FontAwesome;font-style: normal;font-weight: normal;font-size: 21px;margin-right: 5px;}
+
+/* Table header sort icons */
+.colBased .reportHeader.sortable::after {content: "\f0dc";font-family: FontAwesome;font-style: normal;font-weight: normal;position: absolute; left: 0;padding: 0 0 0 4px;}
+.colBased .reportHeader.sortable.asc::after {content: "\f0de";}
+.colBased .reportHeader.sortable.desc::after {content: "\f0dd";}

@@ -1,0 +1,131 @@
+.le-quickpost-modal-error .modal-header {background-color: #FF1919; border-top-left-radius: 3px; border-top-right-radius: 3px;}
+
+#left-nav-quickpost-rss:hover {color: #428BCA;}
+
+#left-nav-quickpost-container {width: 100%;}
+#left-nav-quickpost-title-input-group, #left-nav-quickpost-button-group {margin-left:10px; margin-right:10px; padding-bottom: 10px; padding-top: 10px;}
+
+.left-nav-quickpost-input-error::-moz-placeholder {color:#FF0000;}
+.left-nav-quickpost-input-error::-webkit-input-placeholder {color:#FF0000;}
+.left-nav-quickpost-input-error:-moz-placeholder {color:#FF0000;}
+.left-nav-quickpost-input-error:-ms-input-placeholder {color:#FF0000;}
+
+#left-nav-quickpost-submit {float:right; margin-right:15px; margin-bottom: 15px;}
+
+#left-nav-quickpost-title-input {width:100%; padding: 6px 12px; color: #555; border-radius: 4px; border: 1px solid #CCC;}
+#left-nav-quickpost-message-input-group {margin-left: 10px; margin-right: 10px;}
+#left-nav-quickpost-message-input {width: 100%; height: 95px; resize: none; padding: 6px 12px; color: #555; border-radius: 4px; border: 1px solid #CCC;}
+.left-nav-quickpost-button-right {border-top-right-radius:3px; border-bottom-right-radius:3px; width:40px; height:20px; font-size: 10px; padding: 0px; margin-right:10px;}
+.left-nav-quickpost-button-left {border-top-left-radius:3px; border-bottom-left-radius:3px; width:40px; height:20px; font-size: 10px; padding: 0px; margin-left:10px;}
+#left-nav-quickpost-sp-toggle {margin-top: 10px;}
+.quickpost-toggle-off-left {width: 100%; height: 100%; background-color:#FFFFFF; padding-top:2px;}
+.quickpost-toggle-off-right {height:100%; width:100%; background-color:#EEEEEE; padding-top:2px;}
+.quickpost-toggle-on-left {height:100%; width: 100%; background-color:#428BCA; color:#FFFFFF; padding-top:2px;}
+.quickpost-toggle-on-right {width: 100%; height: 100%; background-color:#FFFFFF; padding-top:2px;}
+
+
+
+#left-nav-quickpost-rss {font-size: 14px; float:right; margin-top: 3px; margin-right:10px; color:#FFFFFF;}
+
+#left-nav-accordion .panel-heading {padding: 0;}
+#left-nav-accordion a {padding-top: 15px; padding-bottom: 15px; height: 20px;}
+#left-nav-accordion .panel-group .panel + .panel {margin-top: 0;}
+
+#left-nav-accordion .panel-title {font-weight: normal;}
+
+#left-nav-accordion .panel-group {margin-bottom: 0;}
+#left-nav-accordion > .panel-group > .panel-default {border-bottom: 2px solid #424c55;}
+
+#left-nav-accordion .panel-default > .panel-heading > .panel-title, #left-nav-accordion .panel-default > .panel-heading > .panel-title a {height: 50px;}
+
+#left-nav-accordion .panel-default > .panel-heading {background-color: #4C5965;  border-top-left-radius: 0px; border-top-right-radius: 0px; 
+														margin: 0; height: 50px;}
+#left-nav-accordion .panel-default > .panel-heading:hover, .sidebar .left-nav-my-media:hover, .sidebar .left-nav-perf-overview:hover {background-color:#477db3;}
+#left-nav-accordion .panel-default > .panel-heading a {padding-left: 15px; padding-right: 15px;}
+
+#left-nav-accordion .left-nav-second-level > .panel-heading, #left-nav-accordion .left-nav-second-level > .panel-heading > .panel-title { height: 41px;}
+
+.sidebar .left-nav-my-media, .sidebar .left-nav-perf-overview {border-bottom: 2px solid #424c55; height: 50px;}
+.sidebar .left-nav-my-media a, .sidebar .left-nav-perf-overview a {color: #ffffff; font-size: 14px; display: block; height: 50px; padding: 15px; text-decoration: none;}
+
+#left-nav-accordion .left-nav-second-level .panel-heading {background-color: #364049;}
+#left-nav-accordion .left-nav-second-level .panel-heading:hover {background-color: #5A6978; color: #FFFFFF;}
+#left-nav-accordion .left-nav-second-level .panel-heading > .panel-title > a {color: #AFADAD; font-size: 14px; padding-left: 28px; border-bottom: 1px solid #4f5458; height: 41px;}
+#left-nav-accordion .left-nav-second-level .panel-heading > .panel-title > a:hover {color: #FFFFFF;}
+
+#left-nav-accordion .left-nav-third-level {background-color: #323538;}
+#left-nav-accordion .left-nav-third-level a {display: block; position: relative; color: #AFADAD; font-size: 14px; padding: 10px 15px 10px 51px; height: 40px;}
+#left-nav-accordion .left-nav-third-level a:hover {color: #FFFFFF;}
+
+#left-nav-accordion .panel-default > .panel-collapse > .panel-body .panel-group {background-color: #364049;}
+
+#left-nav-accordion .panel-default > .panel-collapse > .panel-body > li:hover {background-color:#477db3;}
+#left-nav-accordion .panel-default > .panel-collapse > .panel-body > li {border-style: none none solid none; border-color: #4f5458; border-width: 1px; display: block; position: relative; height: 41px;}
+#left-nav-accordion .panel-collapse > .panel-body {background: #4C5965;}
+#left-nav-accordion .panel-group {background: #4C5965;}
+#left-nav-accordion .panel-body {padding: 0px; border: none;}
+#left-nav-accordion .panel {background-color: #364049; border-style: none none none;  border-color: #6E7C8A; border-radius: 0px; border-width: 1px;}
+#left-nav-accordion .panel-title, #left-nav-accordion a {color:#FFFFFF; text-decoration: none; font-size: 14px;}
+#left-nav-accordion .accordion-toggle {width:100%; display: block;}
+
+/*prevents carrot from line wrapping on long item names*/
+#left-nav-accordion .panel-title > a {white-space: nowrap;}
+
+.navbar-default .sidebar{background-color: #4C5965;}
+.sidebar .arrow {float: right;}
+.sidebar .fa.arrow:before {content: "\f104";}
+.sidebar .active>a>.fa.arrow:before {content: "\f107";}
+
+.left-nav-first-level-heading {height: 20px; width:100%;}
+.left-nav-second-level-heading {height: 20px; width: 100%;}
+.left-nav-third-level-heading {height: 20px; width: 100%;}
+
+
+
+   .sidebar {
+       z-index: 1;
+       position: absolute;
+       width: 250px;
+       margin-top: 51px;
+   }
+
+   .navbar-top-links .dropdown-messages,
+   .navbar-top-links .dropdown-tasks,
+   .navbar-top-links .dropdown-alerts {
+       margin-left: auto;
+   }
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-9sbxh2');
+	src:url('fonts/icomoon.eot?#iefix-9sbxh2') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-9sbxh2') format('woff'),
+		url('fonts/icomoon.ttf?-9sbxh2') format('truetype'),
+		url('fonts/icomoon.svg?-9sbxh2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cog-SP:before {
+	content: "\e600";
+}
+
+
+
+
+
