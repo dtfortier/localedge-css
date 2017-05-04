@@ -86,7 +86,7 @@
 
 /* Top Filter */
 .topFilter .filterIcon {display:none;}
-.topFilter .selected .filterIcon {display: inline-block;color: #fff;font-size: 40px;position: absolute;top:26px;width:100%;left:0;}
+.topFilter .selected .filterIcon {display: inline-block;color: #edeced;font-size: 40px;position: absolute;top:26px;width:100%;left:0;}
 
 
 /* Quick Stats */
@@ -94,7 +94,7 @@
 .quickStatFilter .filterIcon .yahoo:before{display: inline-block;font-size: 56px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 .quickStatFilter .filterIcon .bing:before{display: inline-block;font-size: 60px;float: right;position: relative;top: 17px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 .quickStatFilter .filterIcon .icon-bing:before{display: inline-block;font-size: 60px;float: right;position: relative;top: 17px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
-.subTabSelection .subTabIcon {color: #d0cfcf;position: absolute;bottom: -20px;right: 0;}
+.subTabSelection .subTabIcon {color: #4e789e;position: absolute;bottom: -20px;right: 0;}
 .subTabSelection .calls:before{display: inline-block;font-size: 61px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 .subTabSelection .icon-impressions:before{display: inline-block;font-size: 61px;margin: 0 0 21px 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 
