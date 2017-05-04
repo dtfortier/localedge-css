@@ -8,7 +8,7 @@
 .yfmain {
 	font-family: 'PT Sans', 'pt_sansregular', sans-serif;
 	font-size: 14px;
-	background-color: #FFFFFF;
+	background-color: #EDECED;
 	position: relative;
 }
 
@@ -46,7 +46,7 @@ a:hover {
 	padding: 10px;
 	border-radius: 2px;
 	color: #FFFFFF;
-	background-color: #4C5965;
+	background-color: #364149;
 	text-align: center;
 	cursor: pointer;
 	font-size: 16px;
@@ -60,10 +60,10 @@ a:hover {
 }
 
 .modalNoTitle .reportTitle {
-	background: #EDECED;
+	background: #ffffff;
 	padding: 0px;
 	border-radius: 0px 0px;
-	color: #477DB3;
+	color:#4b5965;
 	font-size: 16px;
 	font-weight: bold;
 	border-bottom:0px solid #cfcfcf;
@@ -77,19 +77,19 @@ a:hover {
 
 .reportHtml {
 	height: 100%;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 10px 2px;-webkit-border-radius: 3px;-moz-border-radius: 3px;
 	border-radius: 3px;
 }
 
 .reportTitle {
 	font-family: 'pt_sansbold', sans-serif;
-	background: #EDECED;
-	padding: 10px;
+	background: #ffffff;
+	padding:16px 0px 12px 13px;
 	border-radius: 2px 2px 0px 0px;
-	color: #477DB3;
+	color:#4b5965;
 	font-size: 16px;
-	border-bottom:1px solid #cfcfcf;
+	border:none;
 	text-transform:uppercase;
 }
 
@@ -152,7 +152,7 @@ a:hover {
 	background: #ffffff;
 	padding: 10px;
 	border-radius: 2px 2px 0px 0px;
-	color: #477DB3;
+	color:#4b5965;;
 	font-size: 16px;
 	border-bottom:1px solid #cfcfcf;
 	text-transform:uppercase;
@@ -1070,7 +1070,7 @@ element.style {
 
 /* === Text Widget Styling === */
 .dashboardTitle {
-	color: #447DB3;
+	color:#364149;
 	font-size: 26px;
 	margin: 22px 0px 0px 0px;
 	font-weight: bold;
@@ -1084,7 +1084,7 @@ element.style {
 }
 
 .customerInfo {
-	color: #000000;
+	color:#364149;
 	font-size: 16px;
 	margin: 2px 0px 0px 0px;
 	padding: 0px 15px;
@@ -1114,7 +1114,7 @@ element.style {
 }
 
 .dashboardDates {
-	color: #909FAC;
+	color:#6d6d72;
 	font-size: 13px;
 	margin: 2px 0px 0px 0px;
 	padding: 0px 15px;
@@ -2243,7 +2243,7 @@ span.pdNoApps {
 
 .subTabSelection .subTabSelector {
 	display: table-cell;
-	background: #EDECED;
+	background:#ffffff;
 	padding: 10px;
 	cursor: pointer;
 	position: relative;
