@@ -152,7 +152,7 @@ a:hover {
 	background: #ffffff;
 	padding: 10px;
 	border-radius: 2px 2px 0px 0px;
-	color:#4b5965;;
+	color:#4b5965;
 	font-size: 16px;
 	border-bottom:1px solid #cfcfcf;
 	text-transform:uppercase;
@@ -550,7 +550,7 @@ a:hover {
 .legendDisplayTitleHidden {
 	border-radius: 0px 2px 0px 0px;
 	color: #EDECED;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 10px 0;
 	border-radius: 2px 2px 0px 0px;
 	font-size: 16px;
@@ -561,7 +561,7 @@ a:hover {
 }
 
 .allPagination {
-	background: #EDECED;
+	background: #ffffff;
 	padding: 0px 10px;
 	float: right;
 	width: 100%;
@@ -985,7 +985,7 @@ element.style {
 
 .quickStatFilter .filterOption {
 	display: table-cell;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 10px;
 	text-align: left;
 	cursor: pointer;
@@ -1459,11 +1459,12 @@ select.seoKeywordSetDropdownSelect {
 }
 
 /* Chart Legend Custom HTML Widget Styling */
-.legend{width: calc(100% - 30px);
+.legend {
+    width: calc(100% - 30px);
 	width: -moz-calc(100% - 30px);
 	width: -webkit-calc(100% - 30px);
 	margin: 0px 15px -20px 15px;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 15px;
 }
 
@@ -1530,13 +1531,14 @@ select.seoKeywordSetDropdownSelect {
 	width: -moz-calc(100% - 30px);
 	width: -webkit-calc(100% - 30px);
 	margin: 15px 15px 0px 15px;
-	background: #EDECED;
+	background: #ffffff;
 	font-family: "pt_sansbold",sans-serif;
 	padding: 10px;
 	border-radius: 2px 2px 0px 0px;
-	color: #477DB3;
+	color:#4b5965;
 	font-size: 16px;
-	border-bottom:1px solid #CBCCCB;
+	border:none;
+	text-transform:uppercase;    
 }
 
 /* Package Details Styles */
@@ -1702,7 +1704,7 @@ span.pdNoApps {
 
 .componentPieChart .reportHtml {
 	height: 100%;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 10px 2px;-webkit-border-radius: 3px;-moz-border-radius: 3px;
 	border-radius: 3px;
 }
@@ -1735,7 +1737,7 @@ span.pdNoApps {
 
 .componentPieChartLegend .legendHtml {
 	height: 100%;
-	background: #EDECED;
+	background: #ffffff;
 	padding: 10px 2px;
 	padding: 15px;
 }
@@ -2204,13 +2206,13 @@ span.pdNoApps {
 /* Dashboard SEO Disclaimer */
 .disclaimerHolder {
 	font-size: 12px;
-	width:100%;
-	overflow:hidden;
-	padding: 10px;
-	background: #EDECED;
-	border: 1px solid #E1E2E2;
-	float: left;
-	margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #E1E2E2;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .disclaimerHolder .expandIcon, .disclaimerHolder .collapseIcon {
@@ -3043,6 +3045,7 @@ select {
 	background-color: #F79720;
 	color: #FFFFFF;
 	font-size: 16px;
+    border:none;
 }
 
 #seo-highlights-carousel .swiper-slide .display1 .btn-action {
